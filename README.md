@@ -1,1 +1,5 @@
 # 6Companies30days
+
+Goldman Sachs
+
+Questions : https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbjViX21FYjdoTjVLOW81bDFaSXhaLVk1WmRqd3xBQ3Jtc0tuX0E3WXdzYnhvM3BWMlo2SFY1Q3BaV0dvc1pCeWF1aVV2MjBYNloxMmFIck5zNzFQNzByM1duQWFyTV9mTGllS3JxajlOSFNhaXM3emI2Z3dPN01tVFRzelNES3JReUVkMXhIbFByazNsYmxCcV9zVQ&q=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2Fe%2F2PACX-1vRgrSl5zCl8P92F0qNuJyDF9v8aqfNd1UB9fQWTb-_aohzhPbZ0GOVbXvfnGHgzbWWdkf9gr7ZgM0lj%2Fpub
