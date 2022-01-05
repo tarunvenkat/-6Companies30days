@@ -1,0 +1,17 @@
+class Solution {
+  public:
+    int doOverlap(int L1[], int R1[], int L2[], int R2[]) {
+        // code here
+        
+        //side by side
+        if(L2[0]>R1[0] || L1[0]>R2[0])
+        return 0;
+        
+        //one above the other
+        if(R1[1]>L2[1] || R2[1]>L1[1])
+        return 0;
+        
+        //if not the above cases then definitely they will be overlapping
+        return 1; 
+    }
+};

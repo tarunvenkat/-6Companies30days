@@ -1,0 +1,23 @@
+class Solution{
+public:	
+	// #define ull unsigned long long
+	/* Function to get the nth ugly number*/
+	long long getNthUglyNo(long long n) {
+	    // code here
+	    long long ugly[n];
+	    ugly[0]=1;
+	    long long tmp;
+	    long long i2=0,i3=0,i5=0,nu2=2,nu3=3,nu5=5;
+	    for(long long i=1;i<n;i++)
+	    {
+	        nu2=ugly[i2]*2;nu3=ugly[i3]*3;nu5=ugly[i5]*5;
+	        ugly[i]=min(nu2,min(nu3,nu5));
+	        
+	        if(ugly[i]==nu2)++i2;
+	        if(ugly[i]==nu3)++i3;
+	        if(ugly[i]==nu5)++i5;
+
+	    }
+	    return ugly[n-1];
+	}
+};

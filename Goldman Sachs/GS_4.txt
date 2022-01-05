@@ -1,0 +1,25 @@
+string encode(string s)
+{     
+  //Your code here 
+ string res="";
+
+  int cnt=1,i;
+  
+  for( i=0;i<s.length()-1;i++)
+  {
+      if(s[i]==s[i+1])
+      ++cnt;
+      else
+      {
+          res+=s[i];
+          res+=to_string(cnt);
+          cnt=1;
+          
+      }
+  }
+  res+=s[i];
+  res+=to_string(cnt);
+  cout << res;
+}
+    
+ 
